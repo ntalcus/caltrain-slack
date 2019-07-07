@@ -1,4 +1,4 @@
-package main
+package caltrainslack
 
 // ServiceDelivery is datatype representing the CalTrain StopMonitoring API response.
 type ServiceDelivery struct {
