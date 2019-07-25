@@ -1,0 +1,6 @@
+{
+    "stopcode": "70172",
+    "apikey": ,
+    "url": "http://api.511.org/transit/StopMonitoring",
+    "method": "GET"
+}

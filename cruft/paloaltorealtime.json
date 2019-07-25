@@ -1,0 +1,95 @@
+{
+    "ServiceDelivery": {
+      "ResponseTimestamp": "2019-07-02T02:12Z",
+      "ProducerRef": "CT",
+      "Status": true,
+      "StopMonitoringDelivery": {
+        "version": "1.4",
+        "ResponseTimestamp": "2019-07-02T02:12Z",
+        "Status": true,
+        "MonitoredStopVisit": [
+          {
+            "RecordedAtTime": "2019-07-02T02:11:21Z",
+            "MonitoringRef": "70172",
+            "MonitoredVehicleJourney": {
+              "LineRef": "BABY BULLET",
+              "DirectionRef": "SB2",
+              "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2019-07-01",
+                "DatedVehicleJourneyRef": "386"
+              },
+              "PublishedLineName": "BABY BULLET",
+              "OperatorRef": "CT",
+              "Monitored": true,
+              "VehicleLocation": {
+                "Longitude": 0,
+                "Latitude": 0
+              },
+              "MonitoredCall": {
+                "StopPointRef": "70172",
+                "VisitNumber": "1",
+                "StopPointName": "Palo Alto Caltrain Station",
+                "VehicleAtStop": "false",
+                "AimedArrivalTime": "2019-07-02T02:17:00Z",
+                "AimedDepartureTime": "2019-07-02T02:17:00Z"
+              }
+            }
+          },
+          {
+            "RecordedAtTime": "2019-07-02T02:11:21Z",
+            "MonitoringRef": "70172",
+            "MonitoredVehicleJourney": {
+              "LineRef": "LIMITED",
+              "DirectionRef": "SB2",
+              "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2019-07-01",
+                "DatedVehicleJourneyRef": "288"
+              },
+              "PublishedLineName": "LIMITED",
+              "OperatorRef": "CT",
+              "Monitored": true,
+              "VehicleLocation": {
+                "Longitude": 0,
+                "Latitude": 0
+              },
+              "MonitoredCall": {
+                "StopPointRef": "70172",
+                "VisitNumber": "1",
+                "StopPointName": "Palo Alto Caltrain Station",
+                "VehicleAtStop": "false",
+                "AimedArrivalTime": "2019-07-02T02:45:00Z",
+                "AimedDepartureTime": "2019-07-02T02:45:00Z"
+              }
+            }
+          },
+          {
+            "RecordedAtTime": "2019-07-02T02:11:21Z",
+            "MonitoringRef": "70172",
+            "MonitoredVehicleJourney": {
+              "LineRef": "LOCAL",
+              "DirectionRef": "SB1",
+              "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2019-07-01",
+                "DatedVehicleJourneyRef": "190"
+              },
+              "PublishedLineName": "LOCAL",
+              "OperatorRef": "CT",
+              "Monitored": true,
+              "VehicleLocation": {
+                "Longitude": 0,
+                "Latitude": 0
+              },
+              "MonitoredCall": {
+                "StopPointRef": "70172",
+                "VisitNumber": "1",
+                "StopPointName": "Palo Alto Caltrain Station",
+                "VehicleAtStop": "false",
+                "AimedArrivalTime": "2019-07-02T03:32:00Z",
+                "AimedDepartureTime": "2019-07-02T03:32:00Z"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }

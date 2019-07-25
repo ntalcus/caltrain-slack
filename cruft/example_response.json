@@ -1,0 +1,52 @@
+{
+    "ServiceDelivery": {
+      "ResponseTimestamp": "2019-07-20T23:30:22Z",
+      "ProducerRef": "CT",
+      "Status": true,
+      "StopMonitoringDelivery": {
+        "version": "1.4",
+        "ResponseTimestamp": "2019-07-20T23:30:22Z",
+        "Status": true,
+        "MonitoredStopVisit": [
+          {
+            "RecordedAtTime": "2019-07-20T23:30:20Z",
+            "MonitoringRef": "70172",
+            "MonitoredVehicleJourney": {
+              "LineRef": "Local",
+              "DirectionRef": "South",
+              "FramedVehicleJourneyRef": {
+                "DataFrameRef": "2019-07-20",
+                "DatedVehicleJourneyRef": "432"
+              },
+              "PublishedLineName": "Local",
+              "OperatorRef": "CT",
+              "OriginRef": "70012",
+              "OriginName": "San Francisco Caltrain",
+              "DestinationRef": "70262",
+              "DestinationName": "San Jose Diridon Caltrain Station",
+              "Monitored": true,
+              "InCongestion": null,
+              "VehicleLocation": {
+                "Longitude": "-122.260002",
+                "Latitude": "37.5078011"
+              },
+              "Bearing": null,
+              "Occupancy": null,
+              "VehicleRef": "432",
+              "MonitoredCall": {
+                "StopPointRef": "70172",
+                "StopPointName": "Palo Alto Caltrain",
+                "VehicleLocationAtStop": "",
+                "VehicleAtStop": "",
+                "AimedArrivalTime": "2019-07-20T23:46:00Z",
+                "ExpectedArrivalTime": "2019-07-20T23:38:04Z",
+                "AimedDepartureTime": "2019-07-20T23:46:00Z",
+                "ExpectedDepartureTime": "2019-07-20T23:46:00Z",
+                "Distances": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }

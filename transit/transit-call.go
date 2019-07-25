@@ -17,12 +17,21 @@ import (
 type Config struct {
 	StopCode string
 	APIKey   string
+	URL      string
+	Method   string
+}
+
+func GetLineInformation() {
+
 }
 
 // Call calls the 511.org API to get information about a train.
 func Call(config Config) {
-	method := "GET"
-	url := "http://api.511.org/transit/StopMonitoring"
+	tNow := time.Now()
+	fmt.Println(tNow)
+
+	method := config.Method
+	url := config.URL
 	req, err := http.NewRequest(method, url, nil)
 	if err != nil {
 		log.Print(err)
@@ -66,13 +75,13 @@ func Call(config Config) {
 
 func printDetails(mes Message) {
 	stops := mes.ServiceDelivery.StopMonitoringDelivery.MonitoredStopVisits
-	fmt.Printf("%s: # Stops %d\n\n", time.Now(), len(stops))
+	// fmt.Printf("%s: # Stops %d\n\n", time.Now(), len(stops))
 	for _, stopDelivery := range stops {
 		stop := stopDelivery.MonitoredVehicleJourney
-		fmt.Println(stop.LineRef)
-		fmt.Println(stop.PublishedLineName)
-		fmt.Println(stop.DirectionRef)
-		fmt.Println(stop.Monitored)
-		fmt.Printf("TRAIN: %s (%s) headed %s. Monitored: %s", stop.LineRef, stop.PublishedLineName, stop.DirectionRef, stop.Monitored)
+		// fmt.Println(stop.LineRef)
+		// fmt.Println(stop.PublishedLineName)
+		// fmt.Println(stop.DirectionRef)
+		// fmt.Println(stop.Monitored)
+		fmt.Printf("TRAIN: %s (%s) headed %s to %s. Stopping at %s expected at %s (scheduled for %s).\n", stop.LineRef, stop.OriginName, stop.DirectionRef, stop.DestinationName, stop.MonitoredCall.StopPointName, stop.MonitoredCall.ExpectedArrivalTime, stop.MonitoredCall.AimedArrivalTime)
 	}
 }

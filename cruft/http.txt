@@ -1,0 +1,8 @@
+http GET http://api.511.org/transit/StopMonitoring api_key=='0f47d869-5e89-4a39-a189-1d42425a60b0' agency=='CT' stopCode=='70172' format=='Json'
+
+http GET http://api.511.org/transit/stopPlaces api_key=='0f47d869-5e89-4a39-a189-1d42425a60b0' operator_id=='CT' stop_id=='70172' format=='Json'
+
+
+ https://511.org/developers/list/apis/
+
+ https://developers.google.com/transit/gtfs-realtime/reference/

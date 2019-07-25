@@ -1,0 +1,38 @@
+[
+{
+    "Id": "Limited",
+    "Name": "Limited",
+    "TransportMode": "rail",
+    "PublicCode": "Limited",
+    "SiriLineRef": "Limited",
+    "Montiored": true,
+    "OperatorRef": "CT"
+  },
+  {
+    "Id": "Local",
+    "Name": "Local",
+    "TransportMode": "rail",
+    "PublicCode": "Local",
+    "SiriLineRef": "Local",
+    "Montiored": true,
+    "OperatorRef": "CT"
+  },
+  {
+    "Id": "Special",
+    "Name": "Special Event Extra Service",
+    "TransportMode": "rail",
+    "PublicCode": "Special",
+    "SiriLineRef": "Special",
+    "Montiored": true,
+    "OperatorRef": "CT"
+  },
+  {
+    "Id": "Bullet",
+    "Name": "Baby Bullet",
+    "TransportMode": "rail",
+    "PublicCode": "Bullet",
+    "SiriLineRef": "Baby Bullet",
+    "Montiored": true,
+    "OperatorRef": "CT"
+  }
+]

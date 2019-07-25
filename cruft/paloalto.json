@@ -1,0 +1,61 @@
+{
+    "Siri": {
+      "ServiceDelivery": {
+        "ResponseTimestamp": "2019-07-01T18:41:55-07:00",
+        "DataObjectDelivery": {
+          "ResponseTimestamp": "2019-07-01T18:41:55-07:00",
+          "dataObjects": {
+            "SiteFrame": {
+              "@version": "any",
+              "@id": "CT",
+              "stopPlaces": {
+                "StopPlace": {
+                  "@version": "any",
+                  "@id": "70172",
+                  "Name": "Palo Alto Caltrain",
+                  "Description": null,
+                  "Centroid": {
+                    "Location": {
+                      "Longitude": "-122.164697",
+                      "Latitude": "37.443405"
+                    }
+                  },
+                  "AccessibilityAssessment": {
+                    "@version": "any",
+                    "@id": "70172",
+                    "MobilityImpairedAccess": "unknown",
+                    "limitations": {
+                      "AccessibilityLimitation": {
+                        "WheelchairAccess": "unknown"
+                      }
+                    }
+                  },
+                  "PostalAddress": {
+                    "AddressLine1": "Palo Alto Caltrain",
+                    "Town": "Palo Alto"
+                  },
+                  "OperatorRef": {
+                    "@ref": "CT"
+                  },
+                  "adjacentSites": {
+                    "ParkingRef": {
+                      "@ref": ""
+                    }
+                  },
+                  "PublicCode": "70172",
+                  "TransportMode": "rail",
+                  "StopPlaceType": "onstreetBus",
+                  "quays": {
+                    "Quay": {
+                      "CompassOctant": "W"
+                    }
+                  }
+                }
+              },
+              "parkings": null
+            }
+          }
+        }
+      }
+    }
+  }
